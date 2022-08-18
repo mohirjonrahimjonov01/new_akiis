@@ -5,8 +5,11 @@
 <section id="topbar" class="d-flex align-items-center">
   <div class="container d-flex justify-content-center justify-content-md-between">
     <div class="contact-info d-flex align-items-center">
-      <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:nano-djems@mail.ru">nano-djems@mail.ru</a></i>
+       <i class="bi bi-envelope d-flex align-items-center"> <a href="mailto:alkhorazmiynamangan@gmail.com">Al-KHorazmiy@gmail.com</a>
+</i>
       <i class="bi bi-phone d-flex align-items-center ms-4"><a href="tel:(+998) 69 210 00 07">(69) 210 00 07</a></i>
+
+       
     </div>
     <SocialMediaLinksIlmHub></SocialMediaLinksIlmHub>
   </div>
@@ -19,12 +22,13 @@
     <nav id="navbar" class="navbar" onclick="ActiveStatus()">
       <ul>
         <li><a class="nav-link scrollto active" href="/">@localizer["home"]</a></li>
+        <li><a class="nav-link scrollto" href="https://issfg.netlify.app/">@localizer["about"]</a></li>
         <li><a class="nav-link scrollto" href="admission">@localizer["admission"]</a></li>
         <li><a class="nav-link scrollto" href="teachers">@localizer["teachers"]</a></li>
         <li><a class="nav-link scrollto" href="contactus">@localizer["contact"]</a></li>
-        <li>
+        @* <li>
           <LanguageComponent></LanguageComponent>
-        </li>
+        </li> *@
       </ul>
       <a onclick="changeVisibilityOfCategories()"><i id="navbar-burger" class="bi bi-list mobile-nav-toggle"></i></a>
     </nav><!-- .navbar -->

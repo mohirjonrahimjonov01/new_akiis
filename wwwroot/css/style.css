@@ -1888,3 +1888,9 @@ section {
   border: 2px solid aliceblue !important;
 }
 
+.languuage{
+  display: flex;
+  justify-content: end;
+  position: relative;
+  left: 25%;
+}
